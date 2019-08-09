@@ -1,0 +1,23 @@
+package db.mongodb;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import org.bson.Document;
+
+import com.mongodb.client.FindIterable;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoDatabase;
+
+import static com.mongodb.client.model.Filters.eq;
+
+import db.DBConnection;
+import entity.Item;
+import entity.Item.ItemBuilder;
+import ticketmaster.TicketMasterClient;
+
+public class MongoDBConnection {
+
+}

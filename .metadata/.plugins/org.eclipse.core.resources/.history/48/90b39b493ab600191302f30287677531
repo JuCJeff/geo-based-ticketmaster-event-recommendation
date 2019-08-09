@@ -1,0 +1,10 @@
+package db.mongodb;
+
+import java.text.ParseException;
+
+public class MongoDBCreation {	
+	//Run as Java application to create MongoDB collections with index.
+	public static void main(String[] args) throws ParseException {
+		
+	}
+}
